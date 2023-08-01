@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DENNA'S KITCHEN</title>
+<body>
+<div class="menu">
+<main class="main">
+    <h1>THE AFRICAN PALACE</h1> 
+<p class="established">EST.1909</P>
+<hr>
+    <section>
+<h2>MAIN MEALS</h2>
+<img src="https://th.bing.com/th/id/OIP.Ml-NgAmfpNx3OKB0Lk6rCAHaHa?w=169&h=180&c=7&r=0&o=5&pid=1.7" alt="a bowl of Spaghetti">
+<article class="meals">
+<p class="variety">Spaghetti Bolognese</p><p class="price">10000</p>
+</article>
+<article class="meals">
+<p class="variety">Ofe Nsala</p><p class="price">8000</p>
+</article>
+<article class="meals">
+<p class="variety">Nkwobi</p><p class="price">2000</p>
+</article>
+<article class="meals">
+<p class="variety">Edikaikong</p><p class="price">5000</p>
+</article>
+    </section>
+    <section>
+        <h2>APPETIZERS</h2>
+        <img  src="https://th.bing.com/th?id=OIP.z-3Ij2JCK3bgl57Pi5VM4QHaEw&w=311&h=200&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="sizzling hot hamburger">
+        <article class="meals">
+            <p class="junk">African palace Specials(burger)</p><p class="price">4000</p>
+        </article>
+        <article class="meals">
+            <p class="junk">Doughnuts</p><p class="price">700</p>
+        </article>
+        <article class="meals">
+            <p class="junk">Milkshakes(in your flavour)</p><p class="price">2000</p>
+        </article>
+        <article class="meals">
+            <p class="junk">Coffee</p><p class="price">500</p>
+        </article>
+        <article class="meals">
+            <p class="junk">Bole</p><p class="price">500</p>
+        </article>
+    </section>
+    <hr>
+    <footer>
+<p>Thank you for dining with us, please visit our <a target="_blank"href="https://www.instagram.com/denna.pg/">instagram</a></p>
+<p align="center">No 54 Ikoyi Drive, lekki epe Lagos state</p>
+<p><strong>"At African palace, we dine like royalties"</strong></p>
+</footer>
+</div>
+</main>
+<aside class="finisher">
+    <h3>ABOUT US</h3>
+<p>Our restaurant is an evocative description of the excitement and lifestyle of the African landscape.<br>The calm and scenic setting sets the tone, and a taste of our meals completes the enthralling Buka culinary experience.</p>
+<P>At AFRICAN PALACE we serve authentic Nigerian meals and street foods.No modern, fusion cuisine just good old-fashioned naija cooking.</p>
+</aside>
+<aside class="sidebar-col">
+    <h2>please fill out a quick survey</h2>
+    <fieldset>
+    <legend>How was your meal today?</legend>
+    <form action="https://www.instagram.com/denna.pg/">
+    <input type="radio" id="delicious" name="delicious-salty-terrible" value="delicious" required>Delicious
+    <input type="radio" id="sour" name="delicious-salty-terrible" value="salty">Salty
+    <input type="radio" id="terrible" name="delicious-salty-terrible" value="terrible">Terrible
+    <br><br>
+<legend>Would you be visiting us again?</legend>
+<input type="checkbox" name="visiting" value="yes" id="yes"><label for="yes">YES</label>
+<input type="checkbox" name="visiting" value="no" id="no"><label for="No">NO</label>
+    </fieldset>
+    <input type="text" name="email address" placeholder="email address" required>
+<button type="submit">submit</button>
+    </form>
+</aside>
+
+
+
+
+
+
+
+
+<style>
+h1{
+    text-align: center;
+    margin-bottom:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: burlywood; width: 100% ;
+    padding-bottom: 0;
+
+
+    }
+    
+
+
+p{
+    text-align: center;
+    margin-top:auto;
+    font-style: italic;
+    padding-top: 0.5px;
+    color: black;
+    
+    
+}
+body{
+    background-image:url(https://th.bing.com/th?id=OIP.hkh14F_c3N_nKL0Y6JFXAwHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2); object-fit:contain ;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+background-size: cover;
+
+    
+}
+.menu{
+    background-color: burlywood;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 400px;
+    float: left;
+    margin-top: -25px;
+}
+hr{
+border-color: brown;
+background-color: brown;
+height: 2px;
+}
+.meals p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+
+}
+.variety, .junk{
+    text-align: left;
+    width: 75%;
+
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+h1, h2, P{
+    text-align: center;
+    font-family: cursive;
+
+}
+
+footer{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+a:visited{
+    color:blue
+}
+
+a:hover{
+    color:brown;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px; width: 200px;
+}
+
+.established{
+font-style: italic;
+font-family: Georgia, Times, 'Times New Roman', serif;
+background-color:burlywood;
+padding-bottom: 10px;
+padding-top: 1px;
+}
+
+
+.sidebar-col{
+    background-color: gray;
+    margin-left: 70%;
+    position: fixed;
+    top: 400px;
+    right: 10px;
+
+
+    
+    
+}
+
+.finisher{
+    text-align: center;
+    background-color: yellow;
+    margin-top: -25px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 500px;
+    right: 100px;
+    max-width: 1000px
+    
+}
+</style>
+</main>
+</body>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+</html>
